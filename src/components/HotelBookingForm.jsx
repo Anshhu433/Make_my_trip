@@ -20,7 +20,7 @@ const HotelBookingForm = ({ hotel, onClose }) => {
   const [hotelPrice, setHotelPrice] = useState(price);
   const username = localStorage.getItem("username") || "";
   const token = localStorage.getItem("accessToken");
-  const api = "http://localhost:8001";
+  const api = "https://mmt-backend-tawny.vercel.app";
 
   // State for loading and error handling
   const [isLoading, setIsLoading] = useState(false);

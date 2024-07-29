@@ -7,7 +7,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-hot-toast"; // Importing toast
 
-const url = "http://localhost:8001";
+const url = "https://mmt-backend-tawny.vercel.app";
 
 export default function SignupForm() {
   const navigate = useNavigate();
