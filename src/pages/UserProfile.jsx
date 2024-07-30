@@ -17,7 +17,7 @@ const UserProfile = () => {
   const navigate = useNavigate();
 
   const token = localStorage.getItem("accessToken");
-  const api = "https://mmt-backend-tawny.vercel.app";
+  const api = "https://make-my-trip-api-three.vercel.app";
 
   // Redirect to login if no token
   useEffect(() => {

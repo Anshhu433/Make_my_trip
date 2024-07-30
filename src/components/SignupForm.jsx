@@ -7,7 +7,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-hot-toast"; // Importing toast
 
-const url = "https://mmt-backend-tawny.vercel.app";
+const url = "https://make-my-trip-api-three.vercel.app";
 
 export default function SignupForm() {
   const navigate = useNavigate();

@@ -50,7 +50,7 @@ const FlightBookingForm = ({ flight, onClose }) => {
   const { flightName, from, to, price, duration } = flight;
   const username = localStorage.getItem("username");
   const token = localStorage.getItem("accessToken");
-  const api = "https://mmt-backend-tawny.vercel.app";
+  const api = "https://make-my-trip-api-three.vercel.app";
 
   const [formData, setFormData] = useState({
     airlineName: flightName || "",
